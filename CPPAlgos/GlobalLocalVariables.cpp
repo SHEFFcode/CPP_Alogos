@@ -10,6 +10,15 @@
 
 int a;
 
+int A[3][5];
+
+
+void PrintingRow(int row) {
+    for (int i = 0; i < 5; ++i) {
+        cout << A[row][i] << " ";
+    }
+}
+
 void Printing (int a) {
     cout << a << "\n"; // global
     
@@ -30,4 +39,8 @@ void Run() {
     a = 100;
     Printing();
     Printing(3);
+    
+    for (int i = 0; i < 3; ++i) {
+        PrintingRow(i);
+    }
 }

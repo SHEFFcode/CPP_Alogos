@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E860BE3E1EC015F500499C58 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E860BE3C1EC015F500499C58 /* Matrix.cpp */; };
 		E8B09F7A1EBEB1C8002A3563 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8B09F791EBEB1C8002A3563 /* main.cpp */; };
 		E8B09F871EBEB88B002A3563 /* GlobalLocalVariables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8B09F851EBEB88B002A3563 /* GlobalLocalVariables.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E860BE3C1EC015F500499C58 /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		E860BE3D1EC015F500499C58 /* Matrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Matrix.hpp; sourceTree = "<group>"; };
 		E8B09F761EBEB1C8002A3563 /* CPPAlgos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPPAlgos; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B09F791EBEB1C8002A3563 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E8B09F801EBEB54B002A3563 /* stdc++.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "stdc++.h"; sourceTree = "<group>"; };
@@ -65,6 +68,8 @@
 			children = (
 				E8B09F831EBEB623002A3563 /* Data.in */,
 				E8B09F791EBEB1C8002A3563 /* main.cpp */,
+				E860BE3C1EC015F500499C58 /* Matrix.cpp */,
+				E860BE3D1EC015F500499C58 /* Matrix.hpp */,
 				E8B09F801EBEB54B002A3563 /* stdc++.h */,
 				E8B09F841EBEB634002A3563 /* Data.out */,
 				E8B09F851EBEB88B002A3563 /* GlobalLocalVariables.cpp */,
@@ -130,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E860BE3E1EC015F500499C58 /* Matrix.cpp in Sources */,
 				E8B09F871EBEB88B002A3563 /* GlobalLocalVariables.cpp in Sources */,
 				E8B09F7A1EBEB1C8002A3563 /* main.cpp in Sources */,
 			);
@@ -258,6 +264,7 @@
 				E8B09F7F1EBEB1C8002A3563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

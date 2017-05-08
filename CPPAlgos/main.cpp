@@ -9,13 +9,14 @@
 #include <iostream>
 #include "stdc++.h"
 #include "GlobalLocalVariables.hpp"
+#include "Matrix.hpp"
 using namespace std;
 
 ifstream f("Data.in");
 ofstream g("Data.out");
 
 //This is a global variable.  Initialized with all zeros.
-int Aglobal[3];
+//int Aglobal[3];
 
 
 int main(int argc, const char * argv[]) {
@@ -34,7 +35,7 @@ int main(int argc, const char * argv[]) {
 //    //Cubic Root
 //    cubicRoot = pow((double)number, 1.0 / 3);
     
-    Run();
+    RunMatrix();
     
     return 0;
 }
